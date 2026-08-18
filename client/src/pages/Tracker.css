@@ -1,0 +1,172 @@
+.tracker-page {
+    min-height: 100vh;
+    background: #f4f7fb;
+    padding: 40px 20px;
+}
+
+.tracker-page h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.tracker-form {
+    max-width: 600px;
+    margin: 0 auto 40px;
+    background: white;
+    padding: 25px;
+    border-radius: 14px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.tracker-form input,
+.tracker-form select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.tracker-form button {
+    width: 100%;
+    padding: 12px;
+    background: #111827;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.tracker-form button:hover {
+    background: #1f2937;
+}
+
+.tracker-list {
+    max-width: 900px;
+    margin: auto;
+}
+
+.tracker-card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+}
+
+.tracker-card h3 {
+    margin-top: 0;
+}
+
+.tracker-card p {
+    margin: 6px 0;
+    color: #4b5563;
+}
+
+.tracker-container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 35px auto;
+}
+
+.tracker-message {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.tracker-list h2 {
+    margin-bottom: 20px;
+}
+
+.tracker-card {
+    transition: transform 0.2s ease;
+}
+
+.tracker-card:hover {
+    transform: translateY(-3px);
+}
+
+.delete-btn {
+    background-color: #fc0303 !important;
+    color: white !important;
+    border: none !important;
+    padding: 9px 16px !important;
+    border-radius: 7px !important;
+    cursor: pointer;
+    margin-top: 12px;
+}
+
+.delete-btn:hover {
+    background-color: #dd0606 !important;
+}
+
+.edit-btn {
+    background-color: #0593f8 !important;
+    color: white !important;
+    border: none !important;
+    padding: 9px 16px !important;
+    border-radius: 7px !important;
+    cursor: pointer;
+    margin-top: 12px;
+   
+}
+
+.edit-btn:hover {
+    background-color: #1d4ed8;
+}
+
+
+.meal-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 12px;
+}
+
+/* Edit & Delete button container */
+.meal-actions,
+.workout-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 18px;
+}
+
+/* Same size for Edit and Delete */
+.edit-btn,
+.delete-btn {
+    width: 80px;
+    height: 44px;
+    padding: 0;
+
+    border: none;
+    border-radius: 8px;
+
+    font-size: 16px;
+    font-weight: 500;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+}
+
+/* Edit */
+.edit-btn {
+    background: #0d9bf2;
+    color: white;
+}
+
+/* Delete */
+.delete-btn {
+    background: #ff1010;
+    color: white;
+}
+
+.edit-btn:hover,
+.delete-btn:hover {
+    opacity: 0.85;
+}
